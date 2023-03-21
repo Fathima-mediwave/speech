@@ -2,9 +2,10 @@
   "compilerOptions": {
     "target": "es5",
     "lib": [
+      "esnext",
       "dom",
       "dom.iterable",
-      "esnext"
+      "scripthost"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -18,7 +19,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "noImplicitAny": false
   },
   "include": [
     "src"
